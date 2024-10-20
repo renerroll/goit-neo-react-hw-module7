@@ -1,0 +1,8 @@
+.search-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.search-box-input {
+  max-width: 350px;
+}

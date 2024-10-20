@@ -1,0 +1,22 @@
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 350px;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 10px;
+
+  .error-message {
+    font-size: 0.75rem;
+    color: red;
+  }
+}
+
+.add-button {
+  align-self: center;
+  margin-top: 10px;
+}
+
+label:not(:first-child) {
+  margin-top: 10px;
+}
